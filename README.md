@@ -2,6 +2,7 @@
 
 Team name: QWERTY-Keys
 
+
 Team Members Name: 
 
 => Prakhar Garg (Github link: "https://github.com/Prakhar-Garg7")
@@ -11,6 +12,7 @@ Team Members Name:
 => Vishal (Github link: "https://github.com/astronix1")
 
 => Mukund Bihari Gupta (Github link: "https://github.com/mukund-gpt")
+
 
 Basic features:
 
@@ -24,6 +26,7 @@ Basic features:
 
 => Track the progress of registered users, including their typing speed improvement over time and the number of tests completed.
 
+
 Advanced Features:
 
 => Implement a point reward system to incentivize users for each typing test taken, with points awarded based on performance metrics such as WPM and accuracy.
@@ -33,6 +36,7 @@ Advanced Features:
 => Offer daily and weekly leaderboards showcasing the fastest typists and highest scorers based on speed and points earned, fostering healthy competition among users.
 
 => Provide special paragraphs tailored for coders, featuring commonly used symbols such as semicolons, parentheses, and mathematical symbols, to help users improve their coding typing skills.
+
 
 
 Tech Stack:
