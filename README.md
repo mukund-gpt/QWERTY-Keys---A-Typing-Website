@@ -2,7 +2,7 @@
 
 Team name: QWERTY-Keys
 
-
+<br><br>
 Team Members Name: 
 
 => Prakhar Garg (Github link: "https://github.com/Prakhar-Garg7")
@@ -14,6 +14,7 @@ Team Members Name:
 => Mukund Bihari Gupta (Github link: "https://github.com/mukund-gpt")
 
 
+<br><br>
 Basic features:
 
 => Allow users to register for an account or log in securely to access the platform's features.
@@ -25,7 +26,7 @@ Basic features:
 => Show detailed results after each typing test, including total Words Per Minute (WPM), net WPM (adjusted for errors), and accuracy percentage.
 
 => Track the progress of registered users, including their typing speed improvement over time and the number of tests completed.
-
+<br><br>
 
 Advanced Features:
 
@@ -38,7 +39,7 @@ Advanced Features:
 => Provide special paragraphs tailored for coders, featuring commonly used symbols such as semicolons, parentheses, and mathematical symbols, to help users improve their coding typing skills.
 
 
-
+<br><br>
 Tech Stack:
 
 => HTML
