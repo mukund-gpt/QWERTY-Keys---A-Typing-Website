@@ -10,7 +10,7 @@
 
 => Priyanshi Rathore (Github link: "https://github.com/Priyanshi0519")
 
-=> Vishal (Github link: "https://github.com/astronix1")
+=> Vishal Kumar (Github link: "https://github.com/astronix1")
 
 => Mukund Bihari Gupta (Github link: "https://github.com/mukund-gpt")
 
