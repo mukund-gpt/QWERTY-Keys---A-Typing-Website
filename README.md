@@ -4,13 +4,13 @@ Team name: QWERTY-Keys
 
 Team Members Name: 
 
-=> Prakhar Garg 
+=> Prakhar Garg (Github link: "https://github.com/Prakhar-Garg7")
 
-=> Priyanshi Rathore
+=> Priyanshi Rathore (Github link: "https://github.com/Priyanshi0519")
 
-=> Vishal 
+=> Vishal (Github link: "https://github.com/astronix1")
 
-=> Mukund Bihari Gupta
+=> Mukund Bihari Gupta (Github link: "https://github.com/mukund-gpt")
 
 Basic features:
 
