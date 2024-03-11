@@ -1,10 +1,10 @@
 <h1>TYPING PRACTICE</h1>
 <h2>QWERTY-Keys__A-Typing-Website</h2>
 
-<h3>Team name</h3>: QWERTY-Keys
+<h3>Team name :</h3> QWERTY-Keys
 
 <br><br>
-<h3>Team Members Name</h3>: 
+<h3>Team Members Name :</h3>
 
 => Prakhar Garg (Github link: "https://github.com/Prakhar-Garg7")
 
@@ -16,7 +16,7 @@
 
 
 <br><br>
-<h3>Basic Features</h3>:
+<h3>Basic Features :</h3>
 
 => Allow users to register for an account or log in securely to access the platform's features.
 
@@ -29,7 +29,7 @@
 => Track the progress of registered users, including their typing speed improvement over time and the number of tests completed.
 <br><br>
 
-<h3>Advanced Features</h3>:
+<h3>Advanced Features :</h3>
 
 => Implement a point reward system to incentivize users for each typing test taken, with points awarded based on performance metrics such as WPM and accuracy.
 
@@ -41,7 +41,7 @@
 
 
 <br><br>
-<h3>Tech Stack</h3>:
+<h3>Tech Stack :</h3>
 
 => HTML
 
