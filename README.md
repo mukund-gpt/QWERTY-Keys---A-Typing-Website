@@ -1,3 +1,4 @@
+<h1>TYPING PRACTICE</h1>
 # QWERTY-Keys__A-Typing-Website
 
 Team name: QWERTY-Keys
