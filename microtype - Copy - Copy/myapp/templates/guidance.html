@@ -1,0 +1,185 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Main Page</title>
+          <link rel="stylesheet"
+                    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+          <link rel="stylesheet"
+                    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+                    integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK"
+                    crossorigin="anonymous">
+          <link rel="stylesheet" href="{% static 'css/guidance.css' %}">
+          <link rel="icon" href="{% static 'images/favicon.jpg' %}">
+
+</head>
+
+<body>
+          <div class="nav">
+                    <span class="logo">QWERTY Keys</span>
+                    <ul>
+                              <li><a href="#">Lessons</a></li>
+                              <li><a href="#">Tests</a></li>
+                              <li><a href="#">Games</a></li>
+                              <li><a href="#">Achievements</a></li>
+                              <li><a href="#">Themes</a></li>
+                              <li><a href="#">EN</a></li>
+                    </ul>
+          </div>
+          <!-- <div class="upimg i1">
+                    <img src="{% static 'images/nav_plant.jpg' %}" height="20px" alt="right">
+          </div> -->
+          <div class="upimg i2">
+                    <span class="goal-name">Daily Goal</span>
+                    <span class="goal">00:00</span>
+          </div>
+          <div class="nav2">
+                    <div class="level">
+                              <span class="a">Typing Seedling => 1 / 5</span>
+                              <br>
+                              <span class="b">7000xp to go</span>
+                    </div>
+                    <!-- <ul>
+                              <li>
+                                        <span>Average Speed:</span>
+                              </li>
+                              <li>
+                                        <span>Accuracy:</span>
+                              </li>
+                              <li>
+                                        <span>Typing Time:</span>
+                              </li>
+                    </ul> -->
+          </div>
+          <div class="main">
+                    <div class="left">
+                              <span>Typing Lessons</span>
+                              <ul>
+                                        <li>
+                                                  <button onclick="left_li_clicked0()">
+                                                            <span>Beginner</span>
+                                                            <img src="{% static 'images/right_arrow.png' %}" alt="right">
+                                                  </button>
+                                        </li>
+                                        <li>
+                                                  <button onclick="left_li_clicked1()">
+                                                            <span>Intermediate</span>
+                                                            <img src="{% static 'images/right_arrow.png' %}" alt="right">
+                                                  </button>
+                                        </li>
+                                        <li>
+                                                  <button onclick="left_li_clicked2()">
+                                                            <span>Advanced</span>
+                                                            <img src="{% static 'images/right_arrow.png' %}" alt="right">
+                                                  </button>
+                                        </li>
+                              </ul>
+                              <!-- <span>Typing Practice</span>
+                              <ul>
+                                        <li>
+                                                  <button onclick="left_li_clicked3()">
+                                                            <span>Reinforcement</span>
+                                                            <img src="assets/right_arrow.png" alt="right">
+                                                  </button>
+                                        </li>
+                                        <li>
+                                                  <button onclick="left_li_clicked4()">
+                                                            <span>Stories</span>
+                                                            <img src="assets/right_arrow.png" alt="right">
+                                                  </button>
+                                        </li>
+                              </ul> -->
+                              <span>Typing Practice</span>
+                              <ul>
+                                        <li>
+                                                  <button onclick="left_li_clicked5()">
+                                                            <span>Your Problem Keys</span>
+                                                            <img src="{% static 'images/right_arrow.png' %}" alt="right">
+                                                  </button>
+                                        </li>
+                              </ul>
+                    </div>
+                    <div class="right">
+                              <div class="per-comp">
+                                        <span>0% complete</span>
+                              </div>
+                              <div class="line"></div>
+                              <div class="lesson-type-one">
+                                        <span>Getting Started</span>
+                              </div>
+                              <ul>
+                                        <li class="one-one"><span>J, F, and Space</span>
+                                                  <button>Start</button>
+                                        </li>
+                                        <li class="one-two"><span>U, R, and K Keys</span>
+                                                  <button>Start</button>
+                                        </li>
+                                        <li class="one-three"><span>D, E, and I Keys</span>
+                                                  <button>Start</button>
+                                        </li>
+                                        <li class="one-four"><span>C, G, and N Keys</span>
+                                                  <button>Start</button>
+                                        </li>
+                                        <li class="one-five"><span>Beginner Review 1</span>
+                                                  <button>Start</button>
+                                        </li>
+                              </ul>
+
+                              <div class="lesson-type-two">
+                                        <span>Reaching Out</span>
+                              </div>
+                              <ul>
+                                        <li class="two-one"><span>T, S, and L Keys</span>
+                                                  <button><span>Start</span></button>
+                                        </li>
+                                        <li class="two-two"><span>O, B, and A Keys</span>
+                                                  <button><span>Start</span></button>
+                                        </li>
+                                        <li class="two-three"><span>V, H, and M Keys</span>
+                                                  <button><span>Start</span></button>
+                                        </li>
+                                        <li class="two-four"><span>Period and Comma</span>
+                                                  <button><span>Start</span></button>
+                                        </li>
+                                        <li class="two-five"><span>Beginner Review 2</span>
+                                                  <button><span>Start</span></button>
+                                        </li>
+                              </ul>
+
+                              <div class="lesson-type-three">
+                                        <span>The Home Stretch</span>
+                              </div>
+                              <ul>
+                                        <li class="three-one"><span>W, X, and ; Keys</span>
+                                                  <button>
+                                                            <span>Start</span></button>
+                                        </li>
+                                        <li class="three-two"><span>Q, Y, and P Keys</span>
+                                                  <button><span>Start</span></button>
+                                        </li>
+                                        <li class="three-three"><span>Z and Enter Keys</span>
+                                                  <button><span>Start</span></button>
+                                        </li>
+                              </ul>
+
+                              <div class="lesson-type-four">
+                                        <span>Wrapping Up</span>
+                              </div>
+                              <ul>
+                                        <li class="four-one"><span>Beginner Wrap Up</span>
+                                                  <button><span>Start</span></button>
+                                        </li>
+                                        <li class="four-two"><span>Beginner Assignment</span>
+                                                  <button><span>Start</span></button>
+                                        </li>
+                              </ul>
+                    </div>
+          </div>
+          <script src="{% static 'js/guidance.js' %}"></script>
+</body>
+
+</html>
