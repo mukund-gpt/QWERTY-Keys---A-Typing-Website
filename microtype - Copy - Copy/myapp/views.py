@@ -17,7 +17,7 @@ def signup(request):
         username=request.POST['username']
         password1=request.POST['password1']
         password2=request.POST['password2']
-
+        if(password1==password2):
         data=User.objects.create_user(first_name=first_name,last_name=last_name,email=email,username=username,password=password1)
         data.save()
         return redirect('login')
