@@ -9,7 +9,7 @@ from .models import History
 
 
 
-def signup(request):
+def signup(request):        //Signup function
     if(request.method=="POST"):
         first_name=request.POST['first_name']
         last_name=request.POST['last_name']
@@ -18,13 +18,13 @@ def signup(request):
         password1=request.POST['password1']
         password2=request.POST['password2']
         if(password1==password2):
-        data=User.objects.create_user(first_name=first_name,last_name=last_name,email=email,username=username,password=password1)
-        data.save()
+            data=User.objects.create_user(first_name=first_name,last_name=last_name,email=email,username=username,password=password1)
+            data.save()
         return redirect('login')
     
     return render(request,'register.html')
 
-def Login(request):
+def Login(request):        //Login function
     if request.method=="POST":
         username=request.POST['username']
         password=request.POST['password']
